@@ -73,6 +73,14 @@ The issuer value in the token tells an application which tenant the user is from
 
 The kid value for keys will match with the identifier for key that that has been used for signing the token you receive.
 
+
+miraj 
+
+common/discovery endpoint is useful when you want to retrieve keys ==  kid
+
+The issuer value in the token tells an application which tenant the user is from
+The kid value for keys will match with the identifier for key that that has been used for signing the token you receive.
+
 {
   "typ": "JWT",
   "alg": "RS256",
